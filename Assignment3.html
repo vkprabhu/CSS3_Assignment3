@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style type="text/css">
+			div {
+				width: 100px;
+				height: 100px;
+				background-color: green;
+				animation-name: example;
+				animation-duration: 4s;
+				animation-direction: alternate;
+				animation-iteration-count: infinite;
+			}
+			p {
+				position: absolute;
+				left: 45px;
+				top: 30px;
+			}
+			@keyframes example {
+				from { background-color: green; border-radius: 0px; }
+				to { background-color: orange; border-radius: 50px; }
+			}
+		</style>
+	</head>
+	<body>
+	<div> <p>Box</p> </div>
+	</body>
+</html>
